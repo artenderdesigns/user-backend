@@ -11,7 +11,7 @@ const PORT = 3000;
 const app = express();
 
 // CORS setup should come before other middleware or routes
-const allowedOrigins = ["http://localhost:5173", "http://localhost:5174", "http://localhost:5175", "http://localhost:5176", "https://artender-studio.netlify.app", "http://theartender.com"];
+const allowedOrigins = ["http://localhost:5173", "http://localhost:5174", "http://localhost:5175", "http://localhost:5176", "https://artender-studio.netlify.app", "https://theartender.com"];
 app.use(
   cors({
     origin: allowedOrigins,
